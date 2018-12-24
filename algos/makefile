@@ -19,7 +19,7 @@ SOURCES=lyra2re.c lyra2v2.c Lyra2.c lyra2z.c Lyra2-z.c Sponge.c allium.c \
 	a5a.c a5amath.c m7m.c magimath.cpp velvet.c \
 	argon2m.c blake2/blake2b.c argon2d/argon2.c argon2d/core.c argon2d/encoding.c argon2d/opt.c argon2d/thread.c \
 	hive.c pomelo.c \
-	phi.c phi2.c polytimos.c skunk.c sib.c veltor.c gost.c aergo.c
+	phi.c phi2.c polytimos.c skunk.c sib.c veltor.c gost.c aergo.c sha256csm.c
 
 OBJECTS=$(SOURCES:%.c=%.o) $(SOURCES:%.cpp=%.o)
 OUTPUT=libalgos.a

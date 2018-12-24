@@ -183,6 +183,7 @@ YAAMP_ALGO g_algos[] =
 	{"vitalium", vitalium_hash, 1, 0, 0},
 	{"aergo", aergo_hash, 1, 0, 0},
 
+	{"sha256csm", sha256csm_hash, 1, 0, 0},
 	{"sha256t", sha256t_hash, 1, 0, 0}, // sha256 3x
 
 	{"sib", sib_hash, 1, 0, 0},
